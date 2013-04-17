@@ -1,0 +1,77 @@
+$blue: darken(#19284C, 3%);
+$red: #B2212F;
+
+body {
+  background-color: lighten(#E8E5D5,3%);
+  font: 15px/1.5 'Proxima Nova','Helvetica Neue', Helvetica, sans-serif;
+  color: #423B35;
+}
+
+a {
+ color: darken(#edebdf, 19%);
+ font-weight: bold;
+ text-decoration: none;
+}
+
+ol, ul {
+  list-style-type: none;
+  display: inline;
+}
+
+h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: MissionGothic-Bold;
+  font-size: 87px;
+  text-shadow: 0 1px 0 rgba(255,255,255,.6);
+}
+
+h2 {
+  font-size: 30px;
+  font-family: MissionGothic-ThinItalic;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  display: none;
+}
+
+header {
+  clear: both;
+  overflow: hidden;
+}
+
+nav {
+  a {
+    font-family: ProximaNova-Bold;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 5px;
+  }
+}
+
+.contributors img {
+  height: 29px;
+  width: 29px;
+  vertical-align: middle;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

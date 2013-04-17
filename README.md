@@ -7,7 +7,7 @@ To check it out:
 
 ```bash
 $ bundle
-$ jekyll --server
+$ jekyll --auto --server
 $ open http://localhost:4000
 ```
 

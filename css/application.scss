@@ -1,26 +1,33 @@
+$blue: darken(#19284C, 3%);
+$red: #B2212F;
+
 body {
   padding: 0;
   margin: 0;
-  background-color: #edebdf;
+  background-color: lighten(#E8E5D5,3%);
   font: 15px/1.64 'Proxima Nova','Helvetica Neue', Helvetica, sans-serif;
-  color: #423B35; }
+  color: #423B35;
+}
 
 a {
-  color: #c8c29e;
-  font-weight: bold;
-  text-decoration: none; }
+ color: darken(#edebdf, 20%);
+ font-weight: bold;
+ text-decoration: none;
+}
 
 ol, ul {
   list-style-type: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 h1, h2, h3, h4 {
   padding: 0;
   margin: 0;
   text-transform: uppercase;
   font-style: normal;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 h1 {
   font-family: 'Cubano', MissionGothic-Bold;
@@ -28,56 +35,74 @@ h1 {
   line-height: 1;
   padding-top: 30px;
   color: #fff;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6); }
+  text-shadow: 0 1px 0 rgba(0,0,0,.6);
+}
 
 h2 {
   font-size: 30px;
-  font-family: MissionGothic-Regular; }
+  font-family: MissionGothic-Regular;
+}
 
 .container {
   clear: both;
   overflow: hidden;
   width: 70%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 header {
-  background-color: #423B35; }
+  background-color: #423B35;
+}
 
 nav {
   float: right;
-  padding: 20px 0; }
-  nav a {
+  padding: 20px 0;
+
+  a {
     font-family: 'MissionGothic-Regular', ProximaNova-Bold;
     font-weight: normal;
     font-size: 15px;
     text-transform: uppercase;
     margin-left: 10px;
-    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5); }
+    text-shadow: 0 -1px 1px rgba(0,0,0,.5);
+  }
+}
 
 .hero-unit {
   padding: 0 0 80px 0;
-  background-color: #423B35; }
-  .hero-unit p {
+  background-color: #423B35;
+
+  p {
     margin-top: 12px;
-    color: #c8c29e; }
+    color: darken(#edebdf, 20%);
+  }
+}
 
 .buckets {
   padding: 32px 0;
-  width: 100%; }
-  .buckets li {
+  width: 100%;
+
+  li {
     width: 30%;
-    float: left; }
-  .buckets .middle {
-    margin: 0 5%; }
+    float: left;
+  }
+
+  .middle {
+    margin: 0 5%;
+  }
+}
 
 .icon {
-  font-family: 'Pictos'; }
+  font-family: 'Pictos';
+}
 
 .contributors img {
   height: 29px;
   width: 29px;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 footer {
   clear: both;
-  overflow: hidden; }
+  overflow: hidden;
+}

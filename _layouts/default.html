@@ -9,12 +9,6 @@
 
     <!-- Le styles -->
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
     <link href="/css/application.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -23,10 +17,9 @@
     <![endif]-->
   </head>
   <body>
-
-    <div class="container">
-      <header>
-        <a class="logo" href="/">Resque</a>
+   
+    <header>
+      <div class="container">
         <nav>
           <a class="active" href="#">About</a></li>
           <a href="/guides">Guides</a>
@@ -34,11 +27,10 @@
           <a href="/community">Community</a>
           <a href="/blog">Blog</a>
         </nav> 
-      </header> 
+      </div>
+    </header>
 
-      {{ content }}
-
-    </div>
+    {{ content }}
 
     <footer>
       <div class="container">

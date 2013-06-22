@@ -104,7 +104,7 @@ nav {
     line-height: 30px;
     padding: 5px 20px;
     border-radius: 3px;
-    margin-left: 20px;
+    margin-left: 30px;
     text-shadow: 0 -1px 0 rgba(0,0,0,.2);
     background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
     border: 1px solid darken(#63a62f,25%);
@@ -120,11 +120,12 @@ nav {
   .icon {
     display: block;
     float: right;
-    margin: 0 40px -42px 0;
+    margin: -30px 40px 0 0;
+    -webkit-transform: rotate(5deg);
  
 
     .ss-icon {
-      font-size: 330px;
+      font-size: 310px;
       line-height: .4;
       position: relative;
       right: 0;

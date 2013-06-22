@@ -104,7 +104,7 @@ nav {
     line-height: 30px;
     padding: 5px 20px;
     border-radius: 3px;
-    margin-left: 30px;
+    margin-left: 25px;
     text-shadow: 0 -1px 0 rgba(0,0,0,.2);
     background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
     border: 1px solid darken(#63a62f,25%);
@@ -120,12 +120,12 @@ nav {
   .icon {
     display: block;
     float: right;
-    margin: -30px 40px 0 0;
+    margin: -42px 40px 50px 0;
     -webkit-transform: rotate(5deg);
  
 
     .ss-icon {
-      font-size: 310px;
+      font-size: 260px;
       line-height: .4;
       position: relative;
       right: 0;
@@ -210,6 +210,7 @@ footer {
   p  {
     color: darken(#53575C,2%);
     font-weight: bold;
+    font-size: 13px;
     text-shadow: 0 1px 1px rgba(255,255,255,.8);
   }
 }

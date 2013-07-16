@@ -27,4 +27,18 @@ processes that consume those units.
 
 ## When should I deploy one?
 
+### Delayed Work
+
+Queues are useful any time you don't immediately need the result of some
+computation, and your process or user-experience would benefit from assuming
+that the work will get done at some point soon.
+
+If some action in your web application were to send notifications to hundreds
+of users via e-mail, the user submitting that action shouldn't have to wait for
+every one of those e-mails to send before their page loads. Queues allow your
+application to take responsibility for some future action, and render the page
+to the user *as if* the e-mails were going to be sent;  instead of holding up
+the process, the consumers of the queue would then do the units of work given
+to them as quickly as they were able.
+
 ## Similar tools

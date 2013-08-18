@@ -1,33 +1,32 @@
 @font-face {
-  font-family: 'Pictos-Font';
+  font-family: 'Cubano-Web';
+  font-style: normal;
+  font-weight: normal;
   src:
-      url('../fonts/pictos-web.eot') format('eot'), 
-      url('../fonts/pictos-web.woff') format('woff'),
-      url('../fonts/pictos-web.ttf') format('truetype'),
-      url('../fonts/pictos-web.svg#webfontphKv1xv9') format('svg');
+      url('../fonts/cubano-regular-webfont.eot') format('eot'), 
+      url('../fonts/cubano-regular-webfont.woff') format('woff'),
+      url('../fonts/cubano-regular-webfont.ttf') format('truetype'),
+      url('../fonts/cubano-regular-webfont.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-$blue: darken(#19284C, 3%);
-$red: darken(#f27478,10%);
+$blue: #2777B1;
 $background: darken(#2D3E4F,5%);
-$lightTeal: #61D4C5;
-$darkTeal: #39C9B6;
 
 
 body {
   padding: 0;
   margin: 0;
   background-color: #fff;
-  font: 15px/1.65 'Helvetica Neue', Helvetica, sans-serif;
-  color: darken(#53575C,2%);
+  font: 15px/1.65 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: darken(#53575C, 2%);
 }
 
 a {
- color: rgba(136,200,0,.7);
+ color: $blue;
  text-decoration: none;
- font-weight: 600;
+ font-weight: 500;
 }
 
 ol, ul {
@@ -43,12 +42,12 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-family: 'Cubano';
+  font-family: 'Cubano-Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
   font-size: 110px;
   line-height: 1;
   padding-top: 40px;
-  font-weight: normal;
-  font-style: normal;
   color: #fff;
   text-shadow: 0 1px 0 rgba(0,0,0,.6);
 }
@@ -79,6 +78,7 @@ nav {
     color: #fff;
     font-size: 13px;
     margin-left: 15px;
+    font-weight: 600;
     transition: all .1s ease;
     -webkit-transition: all .1s ease;
     -moz-transition: all .1s ease;
@@ -94,14 +94,11 @@ nav {
   background-color: $background;
   margin: 0 auto;
 
-
   h1 {
     text-align: center;
-    color: #fff;
   }
 
   p {
-    font-family: 'Helvetica Neue';
     font-weight: normal;
     font-size: 26px;
     text-align: center;
@@ -109,29 +106,6 @@ nav {
     color: #fff;
     font-weight: 300;
     text-shadow: 0 -1px 0 rgba(0,0,0,.1);
-  }
-  
-  a {
-    font-family: 'Helvetica Neue';
-    display: block;
-    width: 220px;
-    margin: 50px auto 0 auto;
-    text-align: center;
-    color: #fff;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 10px 0;
-    border-radius: 3px;
-    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
-    background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
-    border: 1px solid darken(#63a62f,30%);
-    box-shadow: inset 0 1px 1px rgba(255,255,255,.2), 0 1px 3px rgba(0,0,0,.06);
-
-    .ss-icon {
-      font-size: 30px;
-      display: block;
-      float: right;
-    }
   }
 }
 
@@ -142,9 +116,8 @@ nav {
   li {
     width: 31.25%;
     float: left;
-    border-radius: 3px;
     padding: 15px 30px 20px 0;
-    font-size: 14px;
+
 
     &:last-child {
       padding-right: 0;
@@ -156,8 +129,6 @@ nav {
       font-size: 22px;
       font-weight: 500;
       line-height: 32px;
-      clear: both;
-      overflow: visible;
     }
 
     p {
@@ -181,14 +152,11 @@ nav {
     font-size: 30px;
     margin: 5px 12px 0 0;
     color: rgba(136,200,0,.7);
-    text-shadow: 0 1px 0 rgba(255,255,255,1);
   }
 }
 
 .contributors { 
   display: block;
-  clear: both;
-  overflow: hidden;
 
   a {
     padding: 0;

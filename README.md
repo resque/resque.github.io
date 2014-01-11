@@ -1,7 +1,7 @@
 Resque home page
 ================
 
-This is the home page for [Resque](https://github.com/resque).
+This is the home page for [Resque](http://resquework.org/).
 
 To check it out:
 

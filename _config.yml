@@ -1,5 +1,0 @@
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-permalink: /blog/:year/:month/:day/:title

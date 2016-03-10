@@ -3,7 +3,7 @@ email: steve@steveklabnik.com
 description: >
   Resque is a Redis-backed Ruby library for creating background jobs, placing
   them on multiple queues, and processing them later.
-url: "http://resque.github.com"
+url: "http://resque.github.io"
 
 # Build settings
 markdown: kramdown

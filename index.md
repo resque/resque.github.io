@@ -9,3 +9,4 @@
 
 - [Customizing Resque using its hooks API](docs/HOOKS.md)
 - [Plugin development](docs/PLUGINS.md)
+- [Resque vs DelayedJob](docs/resque-vs-delayedjob.md)
